@@ -1,0 +1,5 @@
+p:menu.o
+	gcc menu.o -o p -lSDL -lSDL_image -lSDL_mixer -g
+men.o:menu.c
+	gcc -c menu.c -lSDL -lSDL_image -lSDL_mixer -g
+
